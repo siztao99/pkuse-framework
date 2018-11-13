@@ -80,7 +80,7 @@
         <zookeeper.version>3.4.13</zookeeper.version>
         <kafka-clients>2.0.0</kafka-clients>
         <!--工作流-->
-        <activiti.version>5.11</activiti.version>
+        <activiti.version>5.22.0</activiti.version>
         <solrj.version>5.4.0</solrj.version>
         <!-- 辅助依赖包 -->
         <cglib.version>2.2</cglib.version>
@@ -347,6 +347,11 @@
                 <version>${mapper.version}</version>
             </dependency>
             <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.17</version>
+            </dependency>
+            <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
@@ -371,7 +376,22 @@
                 <artifactId>jcl-over-slf4j</artifactId>
                 <version>${jcl-over-slf4j.version}</version>
             </dependency>
-
+            <!-- activiti工作流引擎 -->
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-engine</artifactId>
+                <version>${activiti.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-spring</artifactId>
+                <version>${activiti.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-explorer</artifactId>
+                <version>${activiti.version}</version>
+            </dependency>
             <!-- Dubbo Start -->
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -556,6 +576,8 @@
                 <artifactId>easypoi-annotation</artifactId>
                 <version>2.3.1</version>
             </dependency>
+
+
             <!-- Pagehelper -->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
@@ -591,7 +613,11 @@
                 <artifactId>netty-all</artifactId>
                 <version>${netty.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.baidu.unbiz</groupId>
+                <artifactId>fluent-validator</artifactId>
+                <version>1.0.9</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
