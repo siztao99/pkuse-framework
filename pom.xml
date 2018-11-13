@@ -8,6 +8,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>pkuse-core</module>
+        <module>pkuse-orm</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -29,8 +30,9 @@
         <mybatis.version>3.4.6</mybatis.version>
         <mybatis-spring.version>1.3.2</mybatis-spring.version>
         <mybatis-plus.version>3.0.5</mybatis-plus.version>
+        <mapper.version>4.0.4</mapper.version>
+        <mapper-spring.version>1.0.5</mapper-spring.version>
         <pagehelper.version>5.1.8</pagehelper.version>
-
         <sharding-jdbc-core.version>3.0.0</sharding-jdbc-core.version>
         <hibernate-core.version>5.3.5.Final</hibernate-core.version>
         <hibernate-jpa.version></hibernate-jpa.version>
@@ -57,6 +59,8 @@
         <!--日志-->
         <slf4j.version>1.8.0-alpha2</slf4j.version>
         <logback.version>1.3.0-alpha4</logback.version>
+        <logback-ext-spring.version>0.1.5</logback-ext-spring.version>
+        <jcl-over-slf4j.version>1.8.0-alpha2</jcl-over-slf4j.version>
         <el.version>3.0.0</el.version>
 
         <springfoxversion>2.2.2</springfoxversion>
@@ -317,6 +321,57 @@
                 <artifactId>druid</artifactId>
                 <version>${druid.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>${mybatis-spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tk.mybatis</groupId>
+                <artifactId>mapper-spring</artifactId>
+                <version>${mapper-spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tk.mybatis</groupId>
+                <artifactId>mapper</artifactId>
+                <version>${mapper.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.logback-extensions</groupId>
+                <artifactId>logback-ext-spring</artifactId>
+                <version>${logback-ext-spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+                <version>${jcl-over-slf4j.version}</version>
+            </dependency>
+
             <!-- Dubbo Start -->
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -378,6 +433,11 @@
                 <groupId>org.crazycake</groupId>
                 <artifactId>shiro-redis</artifactId>
                 <version>3.1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.streamone</groupId>
+                <artifactId>shiro-redisson</artifactId>
+                <version>1.0.0.RELEASE</version>
             </dependency>
             <!-- Jedis -->
             <dependency>
@@ -519,6 +579,19 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${springfoxversion}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/com.lmax/disruptor -->
+            <dependency>
+                <groupId>com.lmax</groupId>
+                <artifactId>disruptor</artifactId>
+                <version>3.4.2</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
