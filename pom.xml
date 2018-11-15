@@ -9,6 +9,9 @@
     <modules>
         <module>pkuse-core</module>
         <module>pkuse-orm</module>
+        <module>pkuse-rbac</module>
+        <module>pkuse-web</module>
+        <module>pkuse-config</module>
     </modules>
     <packaging>pom</packaging>
 
