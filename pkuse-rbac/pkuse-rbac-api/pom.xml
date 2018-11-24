@@ -11,11 +11,21 @@
     <packaging>jar</packaging>
     <artifactId>pkuse-rbac-api</artifactId>
 
+    <description>对外提供RPC接口</description>
     <dependencies>
         <dependency>
             <groupId>com.iztao.pkuse</groupId>
             <artifactId>pkuse-rbac-model</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.iztao.pkuse</groupId>
+            <artifactId>pkuse-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 
