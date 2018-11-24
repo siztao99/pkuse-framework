@@ -8,25 +8,24 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>jar</packaging>
-    <artifactId>pkuse-rbac-api</artifactId>
 
-    <description>对外提供RPC接口</description>
+    <artifactId>pkuse-rbac-api</artifactId>
+    <packaging>jar</packaging>
+
     <dependencies>
         <dependency>
             <groupId>com.iztao.pkuse</groupId>
-            <artifactId>pkuse-rbac-model</artifactId>
+            <artifactId>pkuse-base</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.iztao.pkuse</groupId>
-            <artifactId>pkuse-core</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>

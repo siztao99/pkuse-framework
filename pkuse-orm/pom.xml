@@ -10,10 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pkuse-orm</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>pkuse-orm-mybatis</module>
-    </modules>
 
 
 </project>

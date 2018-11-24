@@ -14,9 +14,9 @@
     <modules>
         <module>pkuse-rbac-api</module>
         <module>pkuse-rbac-service</module>
-        <module>pkuse-rbac-model</module>
+        <module>pkuse-rbac-web</module>
         <module>pkuse-rbac-dao</module>
-        <module>pkuse-rbac-biz</module>
     </modules>
+
 
 </project>

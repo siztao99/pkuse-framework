@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pkuse-config" />
+        <module name="pkuse-core" />
+        <module name="pkuse-orm-mybatis" />
+        <module name="pkuse-rbac-api" />
+        <module name="pkuse-rbac-biz" />
+        <module name="pkuse-rbac-dao" />
+        <module name="pkuse-rbac-model" />
+        <module name="pkuse-rbac-service" />
+        <module name="pkuse-tools" />
+        <module name="pkuse-web-manage" />
+        <module name="pkuse-web-rbac" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
