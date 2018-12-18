@@ -1,2 +1,0 @@
-braveConsumer=me.j360.dubbo.trace.brave.BraveDubboClientFilter
-braveProvider=me.j360.dubbo.trace.brave.BraveDubboServerFilter

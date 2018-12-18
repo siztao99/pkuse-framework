@@ -10,16 +10,6 @@
     <modules>
         <module>pkuse-base</module>
         <module>pkuse-rbac</module>
-        <module>pkuse-apollo</module>
-        <module>pkuse-autotest</module>
-        <module>pkuse-modules</module>
-        <module>pkuse-redission</module>
-        <module>pkuse-mq</module>
-        <module>pkuse-hytrix</module>
-        <module>pkuse-swagger</module>
-        <module>pkuse-orm</module>
-        <module>pkuse-trace</module>
-        <module>pkuse-tcc</module>
     </modules>
     <packaging>pom</packaging>
     <description>
@@ -905,15 +895,6 @@
                         <encoding>${project.build.sourceEncoding}</encoding>
                     </configuration>
                 </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-scm-plugin</artifactId>
-                    <version>1.8.1</version>
-                    <configuration>
-                        <connectionType>connection</connectionType>
-                    </configuration>
-                </plugin>
-
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-javadoc-plugin</artifactId>

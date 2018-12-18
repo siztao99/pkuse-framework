@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="pkuse-base" />
         <module name="pkuse-config" />
         <module name="pkuse-core" />
         <module name="pkuse-orm-mybatis" />
@@ -15,10 +16,30 @@
         <module name="pkuse-rbac-dao" />
         <module name="pkuse-rbac-model" />
         <module name="pkuse-rbac-service" />
+        <module name="pkuse-rbac-web" />
         <module name="pkuse-tools" />
         <module name="pkuse-web-manage" />
         <module name="pkuse-web-rbac" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pkuse-apollo" target="1.8" />
+      <module name="pkuse-autotest" target="1.8" />
+      <module name="pkuse-base" target="1.8" />
+      <module name="pkuse-framework" target="1.5" />
+      <module name="pkuse-hytrix" target="1.8" />
+      <module name="pkuse-modules" target="1.8" />
+      <module name="pkuse-mq" target="1.8" />
+      <module name="pkuse-orm" target="1.8" />
+      <module name="pkuse-rbac" target="1.5" />
+      <module name="pkuse-rbac-api" target="1.8" />
+      <module name="pkuse-rbac-dao" target="1.8" />
+      <module name="pkuse-rbac-service" target="1.8" />
+      <module name="pkuse-rbac-web" target="1.8" />
+      <module name="pkuse-redission" target="1.8" />
+      <module name="pkuse-swagger" target="1.8" />
+      <module name="pkuse-tcc" target="1.8" />
+      <module name="pkuse-trace" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

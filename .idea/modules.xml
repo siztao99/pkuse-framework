@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pkuse-base/pkuse-base.iml" filepath="$PROJECT_DIR$/pkuse-base/pkuse-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pkuse-framework.iml" filepath="$PROJECT_DIR$/pkuse-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac.iml" filepath="$PROJECT_DIR$/pkuse-rbac/pkuse-rbac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-api/pkuse-rbac-api.iml" filepath="$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-api/pkuse-rbac-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-dao/pkuse-rbac-dao.iml" filepath="$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-dao/pkuse-rbac-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-service/pkuse-rbac-service.iml" filepath="$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-service/pkuse-rbac-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-web/pkuse-rbac-web.iml" filepath="$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-web/pkuse-rbac-web.iml" />
+    </modules>
+  </component>
+</project>

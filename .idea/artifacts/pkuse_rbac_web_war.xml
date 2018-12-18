@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pkuse-rbac-web:war">
+    <output-path>$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-web/target</output-path>
+    <root id="archive" name="pkuse-rbac-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pkuse-rbac-web:war exploded" />
+    </root>
+  </artifact>
+</component>

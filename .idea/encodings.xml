@@ -2,19 +2,22 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pkuse-config" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pkuse-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-apollo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-autotest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-hytrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pkuse-orm" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pkuse-orm/pkuse-orm-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pkuse-rbac" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-biz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-dao" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pkuse-tools" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pkuse-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pkuse-web/pkuse-web-manage" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pkuse-web/pkuse-web-rbac" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-rbac/pkuse-rbac-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-redission" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkuse-trace" charset="UTF-8" />
   </component>
 </project>
