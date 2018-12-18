@@ -1,11 +1,11 @@
-package com.iztao.pkuse.api.rbac.system.model;
+package com.iztao.pkuse.api.rbac.system.model.domain;
 
 import lombok.Data;
 
 import java.io.Serializable;
 
 @Data
-public class User implements Serializable{
+public class UserDO implements Serializable{
 
 
 	/**

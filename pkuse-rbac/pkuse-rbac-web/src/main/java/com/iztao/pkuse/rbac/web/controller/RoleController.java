@@ -3,7 +3,8 @@ package com.iztao.pkuse.rbac.web.controller;
 
 import java.util.List;
 
-import com.iztao.pkuse.api.rbac.system.model.User;
+
+import com.iztao.pkuse.api.rbac.system.model.domain.UserDO;
 import com.iztao.pkuse.api.rbac.system.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,7 +29,8 @@ public class RoleController  extends BaseController{
 	}
 	@RequestMapping("/list")
 	@ResponseBody
-	public List<User> list(){
-		return userService.selectAll();
+	public List<UserDO> list()
+	{
+		return null;
 	}
 }
